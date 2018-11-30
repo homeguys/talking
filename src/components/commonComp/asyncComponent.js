@@ -8,7 +8,7 @@ export default function asyncComponent (importComponent) {
         component: null // 动态加载的组件
       }
     }
-    componentDidMount () {
+    componentDidMount() {
       importComponent().then(mod => {
         this.setState({
           // 同时兼容 ES6 和 CommonJS 的模块
