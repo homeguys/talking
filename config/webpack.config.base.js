@@ -13,10 +13,7 @@ const config = {
         test: /\.(js|jsx)$/,
         loader: 'eslint-loader',
         exclude: /node_modules/,
-        enforce: 'pre',
-        options: {
-          emitWarning: true
-        }
+        enforce: 'pre'
       },
       {
         test: /\.(js|jsx)$/,
