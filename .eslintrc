@@ -1,0 +1,12 @@
+{
+	"extends": "standard",
+	"plugins": ["html"],
+	"parser": "babel-eslint",
+	"rules": {
+		"no-new": ["off"],
+		"no-unused-vars": ["warn"],
+    "no-console": ["warn"],
+    "no-undef": ["off"],
+    "no-tabs": ["off"]
+	}
+}
